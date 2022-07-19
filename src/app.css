@@ -1,0 +1,134 @@
+body {
+  padding: 1%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+}
+
+.App-tituloylogo {
+  background-color: #282c34;
+  min-height: 20%;
+  display: flex;
+  flex-direction: line;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(25px + 3vmin);
+  color: white;
+}
+
+.App-search {
+  background-color: #61dafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 6vh;
+
+  position: sticky;
+  top: 0px;
+}
+
+.reset-all {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  outline: none;
+  padding: 10px 15px;
+  margin: 10px;
+  width: 9%;
+  align-items: flex-end;
+}
+
+form {
+  border-radius: 10px;
+  color: black;
+}
+
+.delete-category {
+  background-color: #fbb661;
+  border-radius: 10px;
+  color: black;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  outline: none;
+  padding: 10px 15px;
+  margin: 10px;
+  width: 10%;
+  align-items: flex-end;
+}
+
+.head-categories {
+  background-color: #fbb661c7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 3vh;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 6px 7px rgb(23, 39, 56);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  overflow: hidden;
+  height: fit-content;
+  width: max-content;
+}
+
+.card p {
+  background-color: white;
+  font-size: 10px;
+  margin: 10px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  padding: 1px;
+}
+
+.input {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  margin: 10px;
+  width: 80%;
+}
+
+.animate__bounceOutRight {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: animate__bounceOutRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+* {
+  border-radius: 10%;
+}
